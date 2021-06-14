@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>event</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<style type="text/css">
+  
+  body{background-color:#1C1C1C;
+  height: 2000px;}
+  
+  .carousel-item {
+    height: 500px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 20px;
+    color: white;
+    text-align: left;
+
+  }
+
+.carousel-item h2{
+  margin-left: 20px;
+}
+
+  .carousel-item p {
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom : 48px;
+    color: white;
+    margin-left: 20px;
+  }
+
+
+  .carousel-item a {
+    font-size: 18px;
+    margin-top: 48px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color : white;
+    color : black;
+    border-radius: 20px;
+    text-decoration :none;
+  }
+
+  .carousel-item .helper {
+    height: 100%;
+    display : inline-block;
+    vertical-align: middle;
+  }
+
+  .carousel-item .intro {
+    vertical-align: middle;
+    display : inline-block;
+
+  }
+
+
+  .carousel-item.item1 {
+
+    background-image: url(https://blog.kakaocdn.net/dn/oiAFx/btqMeh2Ii6v/e7b41hWCXnzeGLk6obThiK/img.png);
+    background-size: cover;
+    
+ 
+  } 
+
+
+
+  
+
+
+
+  #navbarNav {
+    justify-content: space-between;
+  }
+
+ .space {
+display: block;
+background-color: gray;
+text-decoration: none;
+margin-bottom:  20px;
+font-family: 'Noto Sans KR';
+
+}
+
+a{text-decoration: none;
+color: black;
+margin-bottom: 10px;
+margin-left: 20px;}
+
+.space h4 {
+  font-size: 18px;
+  color: white;
+}
+
+.space .space-image {
+display:block;
+height: 250px;
+}
+
+.space .info {
+padding : 10px;
+
+}
+​
+.space .info h4 {
+font-size:13px;
+color:white;
+margin-bottom: 10px;
+}
+
+.space .info .num{
+font-size: 15px;
+color:white;
+}
+
+.alert {
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.container {
+  margin-top : 100px;
+}
+
+.container a{ color: #D8D8D8}
+
+.container h2 {font-weight: bold;
+color:#D8D8D8;}
+
+
+
+.platform{
+  border: 1px solid;
+  color: white;
+  width:160px;
+  margin-left: 48px;
+  margin-top: 60px;
+  text-align: center;  
+        display: block;
+        float: left;  
+        font-size:20px; 
+        }
+        .platform1{
+  border: 1px solid;
+  color:#01DFD7;
+  width:160px;
+  margin-left: 48px;
+  margin-top: 60px;
+  text-align: center;  
+        display: block;
+        float: left;  
+        font-size:20px; 
+        }
+.platform1 a{color:#01DFD7;
+padding-right: 10px;}
+
+.plat{margin-left:172px;}
+
+.platform a{text-decoration: none;
+color: white;
+padding-right:5px ;}
+
+hr{color: white;
+margin-bottom:40px;}
+
+.box{background-color: #01DFD7;
+margin-top: 160px;
+color: #01DFD7;
+width:1600px;}
+
+.btn2{border:1px solid;
+color: white;
+width:400px;
+height:100px;
+text-align: center;
+font-size:50px;
+margin:auto;
+margin-top: 60px;}
+
+h1{margin-bottom:100px;
+margin-left: 20px;}
+
+.g{margin-bottom:20px;
+color:gray;
+float:left;}
+h4{color:gray;}
+
+</style>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/xCqH9tLp/3.png" alt="" width="40" height="25"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">홈</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">상점</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">소식</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">이벤트</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+  <div class="carousel-inner">
+    <div class="carousel-item item1 active" data-bs-interval="10000" >
+    	<div class="helper"></div><div class="intro">
+        
+        <h2>올해의 할로윈 이벤트!</h2>
+        
+    	</div>
+    </div>
+
+
+       
+    </div>
+  </div>
+
+ 
+
+<div class="plat">
+    <div class="platform1">
+      <a class="move1" href="#">STEAM</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">UPLAY</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">ORIGIN</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">EPIC</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">GOG</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">BLIZARD<a>
+    </div>
+    </div>
+
+
+<div class="container">
+<div class="row">
+
+<h2>최신 이벤트</h2>
+<a href="#">더보기+</a>
+<hr></hr>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="http://img.danawa.com/cp_images/service/79/3657121/57a87831.jpg" width="100%">
+<div class="info">
+<h4>그들이 돌아왔습니다!</h4>
+<div class="usernum">
+<span class="num"> -스팀의 여름세일</span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://media.contentapi.ea.com/content/dam/eacom/SIMS/brand-refresh-assets/images/2019/07/ts4-featured-image-base-refresh.png.adapt.crop16x9.1023w.png" width="100%">
+<div class="info">
+<h4>무료배포 이벤트</h4>
+<div class="usernum">
+<span class="num">오리진의 특별한 선물 </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://i.ytimg.com/vi/1tkViXWhDsE/maxresdefault.jpg" width="100%">
+<div class="info">
+<h4>don't starve 신작기념 이벤트</h4>
+<div class="usernum">
+ <span class="num"> 많은 혜택이 주어집니다 </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://bnetcmsus-a.akamaihd.net/cms/blog_header/v3/V36Z88JDAHN11479863353882.jpg" width="100%" >
+<div class="info">
+<h4>블리자드 20주년 기념 이벤트</h4>
+<div class="usernum">
+ <span class="num"> 많은 dlc를 무료로 배포합니다! </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="container">
+    <div class="row">
+    
+    <h2>이벤트 모음</h2>
+    
+    <hr></hr>
+  <div class="g">
+    <h4>STEAM ▼</h4>
+
+  </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://www.enewstoday.co.kr/news/photo/201912/1355465_418831_1019.jpg" width="100%">
+    <div class="info">
+    <h4>게임 할인 이벤트</h4>
+  
+    </div>
+    </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://www.theguru.co.kr/data/photos/20210310/art_16155236938894_27066b.png" width="100%">
+    <div class="info">
+    <h4>플랫폼 이벤트</h4>
+    </div>
+    </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/27766192/06d1bc9c58f8134d0e127c1e29d4a9f0c5d6cf2c.jpg" width="100%">
+    <div class="info">
+    <h4>기념일 이벤트</h4>
+
+    </div>
+    </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://blog.kakaocdn.net/dn/qbBOC/btqygBmL9bo/7gln6s9LzI6yFsP32u9RdK/img.png" width="100%" >
+    <div class="info">
+    <h4>배포 이벤트</h4>
+        </div>
+    </a>
+    </div>
+
+    <div class="btn2">+</div>
+
+    <div class="box">...</div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+</html>

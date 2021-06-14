@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>news</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<style type="text/css">
+  
+  body{background-color:#1C1C1C;
+  height: 2000px;}
+  
+  .carousel-item {
+    height: 500px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 20px;
+    color: white;
+    text-align: left;
+
+  }
+
+.carousel-item h2{
+  margin-left: 20px;
+}
+
+  .carousel-item p {
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom : 48px;
+    color: white;
+    margin-left: 20px;
+  }
+
+
+  .carousel-item a {
+    font-size: 18px;
+    margin-top: 48px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color : white;
+    color : black;
+    border-radius: 20px;
+    text-decoration :none;
+  }
+
+  .carousel-item .helper {
+    height: 100%;
+    display : inline-block;
+    vertical-align: middle;
+  }
+
+  .carousel-item .intro {
+    vertical-align: middle;
+    display : inline-block;
+
+  }
+
+
+  .carousel-item.item1 {
+
+    background-image: url(https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbhO9ZD%2FbtqWOf2saoV%2F4j7snNlu7MibNeGtG3lIR1%2Fimg.jpg);
+    background-size: cover;
+    
+ 
+  } 
+
+
+
+  
+
+
+
+  #navbarNav {
+    justify-content: space-between;
+  }
+
+ .space {
+display: block;
+background-color: gray;
+text-decoration: none;
+margin-bottom:  20px;
+font-family: 'Noto Sans KR';
+
+}
+
+
+a{text-decoration: none;
+color: black;
+margin-bottom: 10px;
+margin-left: 20px;}
+
+.space h4 {
+  font-size: 18px;
+  color: white;
+}
+
+.space .space-image {
+display:block;
+height: 250px;
+}
+
+.space .info {
+padding : 10px;
+
+}
+​
+.space .info h4 {
+font-size:13px;
+color:white;
+margin-bottom: 10px;
+}
+
+.space .info .num{
+font-size: 15px;
+color:white;
+}
+
+.alert {
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.container {
+  margin-top : 100px;
+}
+
+.container a{ color: #D8D8D8}
+
+.container h2 {font-weight: bold;
+color:#D8D8D8;}
+
+
+
+.platform{
+  border: 1px solid;
+  color: white;
+  width:160px;
+  margin-left: 48px;
+  margin-top: 60px;
+  text-align: center;  
+        display: block;
+        float: left;  
+        font-size:20px; 
+        }
+        .platform1{
+  border: 1px solid;
+  color:#01DFD7;
+  width:160px;
+  margin-left: 48px;
+  margin-top: 60px;
+  text-align: center;  
+        display: block;
+        float: left;  
+        font-size:20px; 
+        }
+.platform1 a{ color:#01DFD7;
+padding-right: 10px;}
+
+
+.plat{margin-left:172px;}
+
+.platform a{text-decoration: none;
+color: white;
+padding-right:5px ;}
+
+hr{color: white;
+margin-bottom:40px;}
+
+.box{background-color: #01DFD7;
+margin-top: 160px;
+color: #01DFD7;
+width:1600px;}
+
+.btn2{border:1px solid;
+color: white;
+width:400px;
+height:100px;
+text-align: center;
+font-size:50px;
+margin:auto;
+margin-top: 60px;}
+
+h1{margin-bottom:100px;
+margin-left: 20px;}
+
+.g{margin-bottom:20px;
+color:gray;
+float:left;}
+h4{color:gray;}
+
+</style>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/xCqH9tLp/3.png" alt="" width="40" height="25"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">홈</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">상점</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">소식</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">이벤트</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+  <div class="carousel-inner">
+    <div class="carousel-item item1 active" data-bs-interval="10000" >
+    	<div class="helper"></div><div class="intro">
+        
+        <h2>유비소프트의 화려한 신작</h2>
+        
+    	</div>
+    </div>
+
+
+       
+    </div>
+  </div>
+
+ 
+
+<div class="plat">
+    <div class="platform1">
+      <a class="move1" href="#">STEAM</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">UPLAY</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">ORIGIN</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">EPIC</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">GOG</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">BLIZARD<a>
+    </div>
+    </div>
+
+
+<div class="container">
+<div class="row">
+
+<h2>최신 소식</h2>
+<a href="#">더보기+</a>
+<hr></hr>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://pbs.twimg.com/media/EnJnuoYW4AIe9XH.jpg" width="100%">
+<div class="info">
+<h4>어쎄신 크리드의 후속작 발매</h4>
+<div class="usernum">
+<span class="num"> 지금 오리진에서 구매가능</span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://i0.wp.com/wp-corp.qoo-app.com/en/wp-content/uploads/sites/3/2019/11/19111912372580.jpg?resize=900%2C506" width="100%">
+<div class="info">
+<h4>스타듀밸리의 카피게임 논란</h4>
+<div class="usernum">
+<span class="num"> 그래픽부터 일러까지...전부 똑같다 </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://www.ekoreanews.co.kr/news/photo/202007/45360_55809_271.jpg" width="100%">
+<div class="info">
+<h4>모동숲 업데이트 소식</h4>
+<div class="usernum">
+ <span class="num"> 여름 낚시가 돌아왔습니다! </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/3aa60f0b3135b77b2900098cd620cbcfa29af149-1280x720.jpg" width="100%" >
+<div class="info">
+<h4>사이버 펑크 2077의 떨어지는 위상</h4>
+<div class="usernum">
+ <span class="num"> 심각한 버그와 렉, 플레이어들의 불만 폭주</span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="container">
+    <div class="row">
+    
+    <h2>소식 모음</h2>
+    
+    <hr></hr>
+  <div class="g">
+    <h4>STEAM ▼</h4>
+
+  </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://cdn.inflearn.com/public/courses/324667/course_cover/089c85e1-484b-4773-a294-1fbce1f2da20/ljh_unity.png" width="100%">
+    <div class="info">
+    <h4>개발 진행 현황</h4>
+  
+    </div>
+    </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://image.freepik.com/free-vector/system-software-update-data-update-or-synchronize-with-progress-bar-on-the-screen-vector-illustration_100456-319.jpg" width="100%">
+    <div class="info">
+    <h4>업데이트 소식</h4>
+    </div>
+    </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://image.ajunews.com/content/image/2020/12/20/20201220111053884250.jpg" width="100%">
+    <div class="info">
+    <h4>화제의 신작 </h4>
+
+    </div>
+    </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://www.sisaweekly.com/news/photo/202006/31854_48456_119.jpg" width="100%" >
+    <div class="info">
+    <h4>논란의 중심</h4>
+        </div>
+    </a>
+    </div>
+
+    <div class="btn2">+</div>
+
+    <div class="box">...</div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+</html>

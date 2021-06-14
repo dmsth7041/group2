@@ -1,0 +1,398 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>main</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<style type="text/css">
+  
+  body{background-color:#1C1C1C;
+  height: 2000px;}
+  
+  .carousel-item {
+    height: 500px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 20px;
+    color: white;
+    text-align: left;
+
+  }
+
+.carousel-item h2{
+  margin-left: 20px;
+}
+
+  .carousel-item p {
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom : 48px;
+    color: white;
+    margin-left: 20px;
+  }
+
+
+  .carousel-item a {
+    font-size: 18px;
+    margin-top: 48px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color : white;
+    color : black;
+    border-radius: 20px;
+    text-decoration :none;
+  }
+
+  .carousel-item .helper {
+    height: 100%;
+    display : inline-block;
+    vertical-align: middle;
+  }
+
+  .carousel-item .intro {
+    vertical-align: middle;
+    display : inline-block;
+
+  }
+
+
+  .carousel-item.item1 {
+
+    background-image: url(https://cdn2.unrealengine.com/egs-megasale2021-megadeals-breaker-2560x1440-210c509fb73b.jpg?h=1080&resize=1&w=1920);
+    background-size: cover;
+    background-position: center center;
+ 
+  } 
+
+
+
+  .carousel-item.item2 {
+
+    background-image: url(https://blog.kakaocdn.net/dn/cPTLcF/btqDecveQqp/GN3od0ETemamiYjuAui2yK/img.jpg);
+    background-size: cover;
+    background-position: center bottom;
+ 
+  } 
+
+
+
+  #navbarNav {
+    justify-content: space-between;
+  }
+
+ .space {
+display: block;
+background-color: gray;
+text-decoration: none;
+margin-bottom:  20px;
+font-family: 'Noto Sans KR'
+
+}
+
+a{text-decoration: none;
+color: black;
+margin-bottom: 10px;
+margin-left: 20px;}
+
+.space h4 {
+  font-size: 18px;
+  color: white;
+}
+
+.space .space-image {
+display:block;
+height: 250px;
+}
+
+.space .info {
+padding : 10px;
+
+}
+​
+.space .info h4 {
+font-size:13px;
+color:white;
+margin-bottom: 10px;
+}
+
+.space .info .num{
+font-size: 15px;
+color:white;
+}
+
+.alert {
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+.container {
+  margin-top : 100px;
+}
+
+.container a{ color: #D8D8D8}
+
+.container h2 {font-weight: bold;
+color:#D8D8D8;}
+
+
+
+.platform{
+  border: 1px solid;
+  color: white;
+  width:160px;
+  margin-left: 48px;
+  margin-top: 60px;
+  text-align: center;  
+        display: block;
+        float: left;  
+        font-size:20px; 
+        }
+        .platform1{
+  border: 1px solid;
+  color:#01DFD7;
+  width:160px;
+  margin-left: 48px;
+  margin-top: 60px;
+  text-align: center;  
+        display: block;
+        float: left;  
+        font-size:20px; 
+        }
+
+.platform1 a{ color:#01DFD7;
+padding-right: 10px;}
+
+.plat{margin-left:172px;}
+
+.platform a{text-decoration: none;
+color: white;
+padding-right:5px ;}
+
+hr{color: white;
+margin-bottom:40px;}
+
+.box{background-color: #01DFD7;
+margin-top: 160px;
+color: #01DFD7;
+width:1600px;}
+
+.btn2{border:1px solid;
+color: white;
+width:400px;
+height:100px;
+text-align: center;
+font-size:50px;
+margin:auto;
+margin-top: 60px;}
+
+</style>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/xCqH9tLp/3.png" alt="" width="40" height="25"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">홈</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">상점</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">소식</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">이벤트</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+   
+  </div>
+
+
+  <div class="carousel-inner">
+    <div class="carousel-item item1 active" data-bs-interval="10000" >
+    	<div class="helper"></div><div class="intro">
+        <h2>당신을 위한 주말 특가!</h2>
+        <span><h2>~최대 80%까지</h2></span>
+    	</div>
+    </div>
+
+
+    <div class="carousel-item item2" data-bs-interval="2000">
+    	<div class="helper"></div><div class="intro">
+        <h2>다양한 플랫폼 소식을 한곳에서</h2>
+        <p>'게이머를 위한 게시판'</p>
+    </div>
+
+    </div>
+    
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="plat">
+    <div class="platform1">
+      <a class="move1" href="#">STEAM</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">UPLAY</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">ORIGIN</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">EPIC</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">GOG</a>
+    </div>
+    <div class="platform">
+      <a class="move" href="#">BLIZARD<a>
+    </div>
+    </div>
+
+
+<div class="container">
+<div class="row">
+
+<h2>인기게임</h2>
+<a href="#">더보기+</a>
+<hr></hr>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://pbs.twimg.com/media/EsPMBVNUYAAreJk.jpg" width="100%">
+<div class="info">
+<h4>바이오하자드: Village</h4>
+<div class="usernum">
+<span class="num"> -40% [45000원]</span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://img2.quasarzone.co.kr/img/data/img/editor/1810/1810___1878743153.jpg" width="100%">
+<div class="info">
+<h4>컵헤드</h4>
+<div class="usernum">
+<span class="num"> <오직 스팀에서만!> -25% [15000원] </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://d289qh4hsbjjw7.cloudfront.net/steam-degica-korean-20170516091323871/files/Katana-zero000l.jpg" width="100%">
+<div class="info">
+<h4>카타나 제로</h4>
+<div class="usernum">
+ <span class="num"> -50% [7500원] </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+<a href="#" class="space">
+<img class="space-image" src="https://upload.wikimedia.org/wikipedia/ko/0/0c/Witcher_3_cover_art.jpg" width="100%" >
+<div class="info">
+<h4>더 위쳐3</h4>
+<div class="usernum">
+ <span class="num"> <역대 최대 할인!> -80% [6500원] </span>
+</div>
+</div>
+</a>
+</div>
+
+<div class="container">
+    <div class="row">
+    
+    <h2>당신을 위한 추천</h2>
+    <a href="#">더보기+</a>
+    <hr></hr>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://grinclouds.com/wp-content/uploads/2020/06/The-Evil-Within-2-%EC%9D%B4%EB%AF%B8%EC%A7%80-5-1024x576.png" width="100%">
+    <div class="info">
+    <h4>미스터리 공포</h4>
+  
+    </div>
+    </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://www.theguru.co.kr/data/photos/20210206/art_16129117462788_67b64a.jpg" width="100%">
+    <div class="info">
+    <h4>멀티 플레이 게임</h4>
+    </div>
+    </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://file.bodnara.co.kr/logo/insidelogo.php?image=%2Fhttps%3A%2F%2Ffile.bodnara.co.kr%2Fwebedit%2Fhardward%2Fbench%2Frx6700xt_3060ti%2F1.jpg" width="100%">
+    <div class="info">
+    <h4>별점이 높은 게임 </h4>
+
+    </div>
+    </a>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+    <a href="#" class="space">
+    <img class="space-image" src="https://store-images.s-microsoft.com/image/apps.22722.67951031792552411.8554efa1-9624-428f-afb8-7b79d5108d5c.8d6c4c33-2dd3-4bad-9cd4-0a8fc86857cb?mode=scale&q=90&h=1080&w=1920&format=jpg" width="100%" >
+    <div class="info">
+    <h4>GOTY 수상 게임</h4>
+        </div>
+    </a>
+    </div>
+
+    <div class="btn2">+</div>
+
+    <div class="box">...</div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+</html>
